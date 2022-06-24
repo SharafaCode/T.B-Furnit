@@ -120,6 +120,9 @@ header{
     width: 100%;
     z-index: 1;
     padding: 1.5rem 0;
+    max-width: 90%;
+    margin: auto;
+
    
 }
 
@@ -292,7 +295,7 @@ nav .search{
 
  .content-text > h1{
    
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: bolder;
     animation: slide-left 6s ease-in  forwards;
    
@@ -300,7 +303,7 @@ nav .search{
 
 
 .content-text > h2{
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight:500;
     animation: slide-left 6s ease-in forwards;
 }
@@ -313,8 +316,8 @@ nav .search{
 
 
 .box{
-    width: 33rem;
-    height: 30rem;
+    width: 28rem;
+    height: 26rem;
     border: 1.5rem solid var(--menuColor);
     z-index: -1;
     position: absolute;
