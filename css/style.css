@@ -1331,7 +1331,7 @@ outline: 0.2rem solid var(--primaryColor);
 
 /* DESKTOP MEDIA QUEARY Section*/
 
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 1025px) {
 
     /*  Nav Section*/
 
@@ -1374,12 +1374,12 @@ outline: 0.2rem solid var(--primaryColor);
 
 
     nav .search #search {
-        width: 25rem;
+        width: 15rem;
         height: 3rem;
-        border-radius: 0.5rem;
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
         background-color: transparent;
         border: 0.2rem solid var(--primaryColor);
-        position: relative;
         padding-left: 1rem;
 
     }
@@ -1402,15 +1402,14 @@ outline: 0.2rem solid var(--primaryColor);
     nav .search .search-bttn {
         width: 8rem;
         height: 3rem;
-        padding: 0.5rem 1.5rem;
+        padding: 0.5rem 1rem;
         background-color: var(--primaryColor);
         font-size: 1.4rem;
         font-weight: 500;
         border: none;
         border-top-right-radius: 0.5rem;
         border-bottom-right-radius: 0.5rem;
-        position: absolute;
-        right: 6.8rem;
+      
 
     }
 
